@@ -88,11 +88,12 @@ const About = () => {
       <div>text</div>
       <div>
         <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
-          {aboutData.map((item, i) => {
+          {/* {aboutData.map((item, i) => {
+            // console.log(i)
             return (
               <div key={i} className={`${i == index && 'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0 z-10`} onClick={() => setIndex(i)}>{item.title}</div>
             )
-          })}
+          })} */}
         </div>
       </div>
     </div>
